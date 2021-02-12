@@ -1,0 +1,44 @@
+.link{
+	
+}
+div{padding: 20px 20px;
+	background-color: green;
+	display: inline-block;
+
+}
+div:hover{
+	background-color: yellow;
+}
+
+a{
+	color: white;
+	
+}
+a:link{
+	color: blue;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: green;
+	
+}
+a:active{
+	color: red;
+}
+input:checked{
+height: 50px;
+width: 50px;
+}
+input:focus{
+	background-color: purple;
+}
+input:in-range {
+  border: 2px solid yellow;}
+  :root{
+  	background: lime; 
+  }
+  input:valid{
+  	background-color: red;
+  }
